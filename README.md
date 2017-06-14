@@ -1,0 +1,1 @@
+# Recursive Photo Compressor - Python

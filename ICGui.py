@@ -23,14 +23,14 @@ class Example(Frame):
     
     def initUI(self):
       
-        self.parent.title("BCIPN Image Compressor")
+        self.parent.title("Image Compressor")
         self.pack(fill=BOTH, expand=1)
         
 
 def main():
   
     root = Tk()
-    img = PhotoImage(file='nsetlogo.png')
+    img = PhotoImage(file='logo.png')
     root.tk.call('wm', 'iconphoto', root._w, img)    
     # root.geometry("650x450+200+100")
     app = Example(root)
